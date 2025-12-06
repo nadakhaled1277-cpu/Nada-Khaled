@@ -1,6 +1,6 @@
-public class SlackChanel implements Channel {
+public class SlackChannel implements Channel {
     private final SlackService slackservice;
-    public SlackChanel(SlackService slackservice) {
+    public SlackChannel(SlackService slackservice) {
         this.slackservice = slackservice;
     }
     public String PreferredChannel() { return "Slack"; }
