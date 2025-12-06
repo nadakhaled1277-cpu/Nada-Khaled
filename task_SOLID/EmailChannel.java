@@ -1,6 +1,6 @@
-public class EmailChanel implements Channel {
+public class EmailChannel implements Channel {
     private final EmailService emailservice;
-    public EmailChanel(EmailService emailservice) {
+    public EmailChannel(EmailService emailservice) {
         this.emailservice = emailservice;
     }
     public String PreferredChannel() { return "Email"; }
