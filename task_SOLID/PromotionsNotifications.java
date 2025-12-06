@@ -1,5 +1,5 @@
 import java.time.LocalDate;
-public class PromotionsNotifications implements{
+public class PromotionsNotifications implements Notification{
     private String id;
     private String userId;
     private String target;
